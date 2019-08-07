@@ -1,0 +1,21 @@
+{
+    "name": "nealis/db2identity",
+    "description": "A DB2 based identity system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Guido Sangiovanni",
+        "email": "sangiovanni.guido@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Nealis\\Db2Identity\\": "src/"
+      }
+    },
+    "require": {
+        "nealis/identity": "^1.0",
+        "nealis/as400-utils": "^1.0"
+    }
+}
